@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptpemesanan.js"></script>
+    <title>Aplikasi Pemesanan Tiket Travel</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Pemesanan Tiket Travel</h1>
+        <form id="form">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="tujuan">Tujuan:</label>
+            <select id="tujuan" name="tujuan" required>
+                <option value="">Pilih Tujuan</option>
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="surabaya">Surabaya</option>
+                <option value="makassar">Makassar</option>
+            </select>
+
+            <label for="harga_tiket">Harga Tiket:</label>
+            <input type="text" id="harga_tiket" name="harga_tiket" required>
+
+            <label for="jumlah_tiket">Jumlah Tiket:</label>
+            <select id="jumlah_tiket" name="jumlah_tiket" required>
+                <option value="">Pilih Jumlah Tiket</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <label for="member">Member:</label>
+            <input type="checkbox" id="member" name="member">
+
+            <label for="diskon">Diskon:</label>
+            <input type="text" id="diskon" name="diskon">
+
+            <label for="total_bayar">Total Bayar:</label>
+            <input type="text" id="total_bayar" name="total_bayar" readonly>
+
+            <button type="submit" class="btn">Pesan Tiket</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
